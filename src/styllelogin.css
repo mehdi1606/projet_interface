@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Styliser le fond de la page */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Styliser la section de connexion */
+  .h-custom {
+    height: 100vh;
+  }
+  
+  /* Centrer verticalement les éléments du formulaire */
+  .d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styliser les boutons de médias sociaux */
+  .btn-floating {
+    background-color: #007bff;
+    color: white;
+    margin-right: 8px;
+  }
+  
+  /* Styliser les entrées de formulaire */
+  .mb-4 input {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Styliser le bouton de connexion */
+  .btn-login {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* Styliser le lien d'inscription */
+  .link-danger {
+    color: #dc3545;
+  }
+  
+  /* Styliser les icônes des boutons */
+  .icon {
+    font-size: 24px;
+  }
+  
+  /* Styliser les liens de médias sociaux */
+  .bg-primary a {
+    color: white;
+    margin: 0 8px;
+  }
+  
+  form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .mb-4 input {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    width: 100%; 
+    margin-bottom: 10px;
+  }  
